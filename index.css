@@ -1,0 +1,68 @@
+section{
+    padding: 5% 10%;
+  }
+    .main-home{
+    width: 100%;
+    height: 120vh;
+    background-image:url(assets/images/red-luxury-vehicle.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1.2fr);
+    align-items:center ;
+  }
+  
+  .banner_content {
+    padding-left: 150px;
+  }
+  .banner_content h1 {
+    color: #0a0909;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+  }
+  .banner_content p {
+    color: #0c0c0c;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-right: 5px;
+  }
+  .center-text h2{
+    color: #111;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .center-text span{
+    color: #ee1c47;
+  }
+  .center-text p{
+    text-align:center;
+    color:#666464 ;
+  }
+  
+  .recent-car-list {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.recent-car-list:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.car-info-box {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.car-info-box img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.car-info-box:hover img {
+    transform: scale(1.1);
+}
